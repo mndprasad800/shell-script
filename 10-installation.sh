@@ -30,11 +30,11 @@ else
     echo "installation of git is ....success"
 fi
 
-dnf install nginix -y
+dnf install nginx -y           
 
 if [ $? -ne 0 ]
 then
-    echo "installation of nginix is....FAILURE"
+    echo "installation of nginx is....FAILURE"
 else
-    echo "installation of nginix is .....SUCCESS"
+    echo "installation of nginx is .....SUCCESS"
 fi
